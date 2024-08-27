@@ -1,0 +1,51 @@
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+}
+
+/* body {
+    border: 1px solid red;
+} */
+
+.info {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+    margin-top: 4em;
+    width: 50%;
+    padding: 2em;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.button {
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    width: 80%;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 20%);
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-3px);
+}
+
+.button:active {
+    transform: translateY(3px);
+}
+
+.profile {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+}
